@@ -6,7 +6,7 @@ class Book {
 private:
     int BookID;
     string BookName;
-    float BookPrice;
+    float BookPrice; 
 
 
     float total_cost(int n) {

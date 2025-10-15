@@ -5,7 +5,7 @@ using namespace std;
 class Car {
 private:
     string brand;
-    string model;
+    string model; 
     int year;
 
 public:

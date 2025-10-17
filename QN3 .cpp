@@ -33,11 +33,11 @@ public:
 
 int main() {
     cout << "Creating rectangle1 using default constructor...\n";
-    Rectangle rectangle1;   // calls default constructor
+    Rectangle rectangle1;   
     rectangle1.display();
 
     cout << "\nCreating rectangle2 using parameterized constructor...\n";
-    Rectangle rectangle2(10.5, 5.5);  // calls parameterized constructor
+    Rectangle rectangle2(10.5, 5.5);  
     rectangle2.display();
 
     cout << "\nProgram ending... destructors will be called automatically." << endl;

@@ -51,15 +51,15 @@ int main() {
     cout << "\nEnter details for Book 3:\n";
     b3.inputDetails();
 
-    cout << "\n=== Book 1 Details ===";
+    cout << "\n Book 1 Details ";
     b1.displayDetails();
     b1.purchase();
 
-    cout << "\n=== Book 2 Details ===";
+    cout << "\n Book 2 Details ";
     b2.displayDetails();
     b2.purchase();
 
-    cout << "\n=== Book 3 Details ===";
+    cout << "\n Book 3 Details ";
     b3.displayDetails();
     b3.purchase();
 

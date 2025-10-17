@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath> 
 using namespace std;
-float area(float radius) {
+float area(float radius) { 
     return M_PI * radius * radius;
 }
 

@@ -40,7 +40,7 @@ int main() {
     car3.readData();
 
     
-    cout << "\n=== Displaying Car Details ===" << endl;
+    cout << "\n Displaying Car Details " << endl;
     car1.displayData();
     car2.displayData();
     car3.displayData();

@@ -21,6 +21,7 @@ public:
   
     void display() {
         cout << hours << " : " << minutes << " : " << seconds << endl;
+    }
     
     friend Time addTime(Time t1, Time t2);
 };
